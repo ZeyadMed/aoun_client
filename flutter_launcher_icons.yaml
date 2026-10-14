@@ -1,0 +1,13 @@
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/aoun_icon.png"
+  min_sdk_android: 21
+
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/aoun_icon_foreground.png"
+  # keep the round logo inside the adaptive icon safe zone so the launcher mask doesn't crop it
+  adaptive_icon_foreground_inset: 20
+
+# dart run flutter_launcher_icons
